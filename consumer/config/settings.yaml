@@ -1,0 +1,17 @@
+kafka_bootstrap_server: 127.0.0.1:9092
+input_topic: input
+output_topic: output
+log_level: DEBUG
+kafka_group_id: input
+kafka_session_timeout_ms: 6000
+kafka_auto_offset_reset: earliest
+
+
+
+default:
+  kafka_topic: input
+  kafka_bootstrap_server: 127.0.0.1:9092
+development:
+  kafka_bootstrap_server: 127.0.0.1:9092
+production:
+  kafka_bootstrap_server: kafka:9092

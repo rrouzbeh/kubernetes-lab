@@ -1,0 +1,10 @@
+kafka_bootstrap_server: 127.0.0.1:9092
+kafka_topic: input
+
+default:
+  kafka_topic: input
+  kafka_bootstrap_server: 127.0.0.1:9092
+development:
+  kafka_bootstrap_server: 127.0.0.1:9092
+production:
+  kafka_bootstrap_server: kafka:9092
